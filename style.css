@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-div{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+}
+.my1{
+    background-color: #F5F7FA !important;
+    color: #4CAF4F !important;
+}
+.my2{
+    color: #F5F7FA !important;
+    background-color: #4CAF4F !important;
+}
+#logo{
+    margin-left: 5%
+}
+#button1{
+    margin-right: 10%;
+}
+
+#hero{
+    width: 100%;
+    height: 400px;
+    background-color: #F5F7FA;
+}
+.my3{
+    background-color: #166b19 !important;
+    
+}
+#text{
+    margin-left: 10%;
+    padding-top: 10%;
+}
+article{
+    display: flex;
+}
+#img{
+    margin-left: 20%;
+}
+
+#text1{
+    font-weight: 630px;
+    font-size: 45px;
+    color:#443d3d;
+}
+#text2{
+    
+    font-weight: 600px;
+    font-size: 45px;
+    color: #4CAF4F;
+}
+
+
+#text3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#img3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#text4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#h1{
+    width: 45%;
+    text-align: center;
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: 0px !important;
+}
+#frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text5{
+    width: 45%;
+}
+
+.stats-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  .highlight {
+    color: #28a745;
+    font-weight: 600;
+  }
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 20px 20px;
+  }
+  .cta-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+
+@media screen and (max-width: 800px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #button1{
+        visibility:hidden;
+        margin-right: 0%;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    #hero{
+        width: 100%;
+        height: 700px;
+        background-color: #F5F7FA;
+    }
+    #frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #h1{
+        width: 100%;
+        text-align: center;
+    }
+    .text5{
+        width: 90%;
+    }
+    #img{
+        margin-left: 0;
+    }
+    #main-div{
+        width: 100%;
+        overflow: hidden;
+    }
+    .main-heading {
+        font-size: 1.5rem;
+        padding: 40px 10px 10px;
+      }
+  
+      .cta-button {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .stats-section {
+        padding: 30px 15px;
+      }
+  
+      .stats-section .row > div {
+        margin-bottom: 20px;
+      }
+    
+}
